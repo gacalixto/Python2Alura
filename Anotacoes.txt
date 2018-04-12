@@ -1,0 +1,13 @@
+Algumas anotações de Python:
+Variaveis:
+-Variaveis são declaradas de forma implicita, ou seja não é necessário informar o tipo da  váriavel. por exemplo:
+>>>	nome = "Gabriel Calixto"
+>>>	idade = 20
+-É possível utilizar a operação slice para puxar informações de uma String
+>>>nome = 'Gabriel Calixto de Paula'
+>>>nome[0:15]
+	'Gabriel Calixto'
+Tipos de Dados:
+-Arrays são similares aos arrays da linguagem C:
+>>>numeros=[0,1,2]
+
