@@ -7,7 +7,14 @@ Variaveis:
 >>>nome = 'Gabriel Calixto de Paula'
 >>>nome[0:15]
 	'Gabriel Calixto'
+
+-Função print pode ser usada para mostrar informações concatenadas:
+>>> print'Nome:%s Idade:%s' %(nome,idade)
+
 Tipos de Dados:
 -Arrays são similares aos arrays da linguagem C:
 >>>numeros=[0,1,2]
+-é possivel remover e adicionar elementos num array usando funções como append e remove.
 
+-Tuples são arrays que não permitem inserção e remoção dos dados
+>>>numeros=(0,1,2)
