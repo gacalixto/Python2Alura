@@ -1,0 +1,11 @@
+def gera_nome_convite(convite):
+    posicao_final = len(convite)
+    posicao_inicial = posicao_final-4
+    parte1 = convite[0:4]
+    parte2 = convite[posicao_inicial:posicao_final]
+    print '%s %s' %(parte1,parte2)
+
+def cadastrar(nomes):
+    print 'Digite o nome:'
+    nome = raw_input()
+    nomes.append(nome)
